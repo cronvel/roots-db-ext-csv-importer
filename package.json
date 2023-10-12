@@ -1,0 +1,47 @@
+{
+  "name": "roots-db-ext-csv-importer",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "description": "Import CSV",
+  "main": "lib/extension.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "exm": "^0.5.12"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/roots-db-ext-csv-importer.git"
+  },
+  "keywords": [
+    "roots-db",
+    "csv",
+    "import"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/roots-db-ext-csv-importer/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "lib"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "Roots DB CSV importer",
+    "years": [
+      2023
+    ],
+    "owner": "Cédric Ronvel"
+  }
+}
