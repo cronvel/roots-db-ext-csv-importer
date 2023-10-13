@@ -30,7 +30,7 @@
 
 
 
-const csvImporter = require( '../lib/csvImporter.js' ) ;
+const CsvImporter = require( '../lib/CsvImporter.js' ) ;
 
 describe( "CSV importer tests moved to main roots-db module, use:" , () => {
 	it( "tea-time --opt.importer csv" ) ;
